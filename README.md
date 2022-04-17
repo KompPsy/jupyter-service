@@ -44,9 +44,9 @@ Method 2:
 ---------
 >>
 **1.)** Enter the following command : 
--     sudo vi /etc/systemd/system/jupyterlab.service
+     sudo vi /etc/systemd/system/jupyterlab.service
 or
--     sudo nano /etc/systemd/system/jupyterlab.service 
+     sudo nano /etc/systemd/system/jupyterlab.service 
 >>
 --**NOTE**: You can use either nano or vi commands. Use the editor you are comfortable with :) 
 >> 
@@ -57,10 +57,10 @@ or
 Enable and Starting jupyterlab.service
 ---------------------------------------
 **1.)** Enter the following commands :
--     sudo systemctl enable jupyterlab.service
--     sudo systemctl start jupyterlab.service
--     sudo systemctl status jupyterlab.service
-      Expected Result : jupyterlab.service - Jupyter Lab Server will show as Active: active (running).
+     sudo systemctl enable jupyterlab.service
+     sudo systemctl start jupyterlab.service
+     sudo systemctl status jupyterlab.service
+      Expected Result Output: jupyterlab.service - Jupyter Lab Server will show as Active: active (running).
 >> 
 --**NOTE:** If jupyterlab.service does not show active and running status proceed to next steps.
 >>
