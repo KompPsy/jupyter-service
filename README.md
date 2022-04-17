@@ -16,7 +16,7 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 ### Section 1.0.1 - Methods
 >Method 1 or method 2 can be used for this Configuration process. Then, follow the Enable and Starting jupyterlab.service section to enable and start the service.
 
-> #### Method 1 : 
+ #### Method 1 : 
 ---------
 >>>
 >> **1.)** User can download the Jupyter Service file in the jupyter-service in the repository. User will need to modify the following in the jupyter-service file:
@@ -45,7 +45,7 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 >>>
 >> **3.)** Proceed to step 1 in Section 2.0.1 - Enable and Starting Jupyter Service.
       
-> #### Method 2 :
+ #### Method 2 :
 ---------
 >>>
 >> **1.)** Enter the following command :
