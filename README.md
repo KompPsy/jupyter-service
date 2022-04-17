@@ -9,7 +9,7 @@ B. Depending on the method that is used, ensure SSH and other applications (putt
 ## Configuration of Jupyter Service
 Method 1 or method 2 can be used for this Configuration process. Then, follow the Enable and Starting jupyterlab.service section to enable and start the service.
 >>
-##Method 1: 
+Method 1: 
 ---------
 >>
 1. User can download the Jupyter Service file in the jupyter-service in the repository. User will need to modify the following in the jupyter-service file:
@@ -30,7 +30,7 @@ Method 1 or method 2 can be used for this Configuration process. Then, follow th
       >>
 3. Proceed to step 1 in Enable and Starting jupyterlab.service section.
       
-##Method 2:
+Method 2:
 ---------
 >>
 1. Enter the following command : 
