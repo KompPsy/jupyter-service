@@ -21,6 +21,8 @@ Enable and Starting jupyterlab.service
 >>-     sudo systemctl status jupyterlab.service
 >>- Expected Result : jupyterlab.service shows active and running status.
 >>- Note: If jupyterlab.service does not show active and running status proceed to next steps.
+
+
 Disable and Stoping jupyterlab.service
 >>- Run the the following commands
 >>-     sudo systemctl disable jupyterlab.service
