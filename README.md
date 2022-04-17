@@ -7,7 +7,7 @@ Method 1 or method 2 can be used for this Configuration process. Then, follow th
 Method 1: 
 ---------
 >>
-1. User will need to will need to pre-create the service file then transfer jupyterlab.service to /etc/systemd/system.
+1. User will need to need to pre-create the service file then transfer jupyterlab.service to /etc/systemd/system.
 >>
 Method 2:
 ---------
