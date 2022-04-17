@@ -43,9 +43,12 @@ Line 9:
 Method 2:
 ---------
 >>
-**1.)** Enter the following command : 
+**1.)** Enter the following command :
+>>
      sudo vi /etc/systemd/system/jupyterlab.service
+>>
 or
+>>
      sudo nano /etc/systemd/system/jupyterlab.service 
 >>
 --**NOTE**: You can use either nano or vi commands. Use the editor you are comfortable with :) 
