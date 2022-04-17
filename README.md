@@ -10,10 +10,10 @@ Start Jupyter notebook/lab service upon boot.
 >>- Expected Result : jupyterlab.service shows active and running status.
 >>- Note: If jupyterlab.service does not show active and running status proceed to next steps.
 >>- 4: Run the the following commands
->>-     a. sudo systemctl disable jupyterlab.service
->>-     b. sudo systemctl stop jupyterlab.service
->>-     c. sudo systemctl daemon-reload
->>-     d. Reboot system
->>-     e. After reboot and login, proceed to step 1.
+>>-      sudo systemctl disable jupyterlab.service
+>>-      sudo systemctl stop jupyterlab.service
+>>-      sudo systemctl daemon-reload
+>>-      Reboot system
+>>-      After reboot and login, proceed to step 1.
 
 
