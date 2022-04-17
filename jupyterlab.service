@@ -1,0 +1,15 @@
+[Unit]
+Description=Jupyter Lab Server
+
+[Service]
+User=pj
+Group=pj
+Type=simple
+WorkingDirectory=/home/pj/
+ExecStart=/home/pj/.local/bin/jupyter-lab --ip='*' --port=9095
+StandardOutput=null
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
