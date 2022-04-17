@@ -60,7 +60,7 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 >>
 > --**NOTE:** Content of the Jupyterlab Service file found here : https://github.com/KompPsy/jupyter-service/blob/main/jupyterlab.serviceContent
 >>
-### Enable and Starting jupyterlab.service
+### Enable and Starting Jupyter Service
 ---------------------------------------
 > **1.)** Enter the following commands :
 >>
@@ -74,7 +74,7 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 >> 
 > --**NOTE:** If jupyterlab.service does not show active and running status proceed to next steps.
 >>
-### Disable and Stopping jupyterlab.service
+### Disable and Stopping Jupyter Service
 ---------------------------------------
 > **1.)** Run the the following commands :
 >>
