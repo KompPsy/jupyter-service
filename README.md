@@ -36,7 +36,7 @@ Disable and Stoping jupyterlab.service
 -     sudo systemctl disable jupyterlab.service
 -     sudo systemctl stop jupyterlab.service
 -     sudo systemctl daemon-reload
->>2. Reboot system
->>3. After reboot and login, proceed to Enable and Starting jupyterlab.service section step 1.
+2. Reboot system
+3. After reboot and login, proceed to Enable and Starting jupyterlab.service section step 1.
 
 
