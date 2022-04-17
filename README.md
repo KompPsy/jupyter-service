@@ -92,7 +92,7 @@ This section configures the service of Jupyter to be excute upon startup in sect
 >>
 > **2.)** Reboot system.
 >>
-> **3.)** After reboot and login, proceed to Enable and Starting jupyterlab.service section step 1.
+> **3.)** After reboot and login, proceed to step 1 Section 2.0.1 - Enable and Starting Jupyter Service.
 >>
 
       
