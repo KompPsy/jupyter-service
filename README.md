@@ -1,8 +1,13 @@
 # jupyter-service
-Start Jupyter notebook/lab service upon boot.
+Description: Start Jupyter notebook/lab service upon boot.
+
+###Prerequisites:
+------------------
+A. Ensure virtualenv or conda environment are installed and configured
+B. Depending on the method that is used, ensure SSH and other applications (putty, winscp, or etc.) are installed and running.
+
 ## Configuration of Jupyter Service
 Method 1 or method 2 can be used for this Configuration process. Then, follow the Enable and Starting jupyterlab.service section to enable and start the service.
-
 >>
 Method 1: 
 ---------
@@ -19,9 +24,9 @@ Method 1:
 >>
 --**NOTE:** Content of the Jupyterlab Service found here : https://github.com/KompPsy/jupyter-service/blob/main/jupyterlab.service
 >>
-2. Transfer the jupyter-service file to
+2. Copy the jupyter-service file to
       >>
-      /etc/systemd/system/jupyterlab.service
+      /etc/systemd/system/
       >>
 3. Proceed to step 1 in Enable and Starting jupyterlab.service section.
       
