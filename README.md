@@ -20,18 +20,18 @@ Copy and paste or enter the contents of jupyterlab.service to the editor. Then, 
 >>
 Enable and Starting jupyterlab.service
 ---------------------------------------
->1. Enter the following command:
->>-     sudo systemctl enable jupyterlab.service
->>-     sudo systemctl start jupyterlab.service
->>-     sudo systemctl status jupyterlab.service
->>      Expected Result : jupyterlab.service - Jupyter Lab Server will show as Active: active (running).
+1. Enter the following command:
+     sudo systemctl enable jupyterlab.service
+     sudo systemctl start jupyterlab.service
+     sudo systemctl status jupyterlab.service
+      Expected Result : jupyterlab.service - Jupyter Lab Server will show as Active: active (running).
 >> 
->> Note: If jupyterlab.service does not show active and running status proceed to next steps.
-
+Note: If jupyterlab.service does not show active and running status proceed to next steps.
+>>
 
 Disable and Stoping jupyterlab.service
 ---------------------------------------
->>1. Run the the following commands
+1. Run the the following commands
 >>-     sudo systemctl disable jupyterlab.service
 >>-     sudo systemctl stop jupyterlab.service
 >>-     sudo systemctl daemon-reload
