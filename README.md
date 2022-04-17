@@ -18,7 +18,7 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 
  #### Method 1 : 
 ---------
->>>
+
 >> **1.)** User can download the Jupyter Service file in the jupyter-service in the repository. User will need to modify the following in the jupyter-service file:
 >>>
 >> Line 5:
@@ -47,7 +47,7 @@ Description: ConStart Jupyter notebook/lab service upon boot.
       
  #### Method 2 :
 ---------
->>>
+
 >> **1.)** Enter the following command :
 >>>
 >>     sudo vi /etc/systemd/system/jupyterlab.service
