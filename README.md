@@ -1,11 +1,14 @@
-# Jupyter Service Configuration
-Description: ConStart Jupyter notebook/lab service upon boot.
+# Jupyter Service Configuration 
+Description: ConStart Jupyter notebook/lab service upon boot. (Linux OS)
+This was tested on RHEL 8.5, Fedora 35, and Ubuntu 20.04 LTS
 
 ### Prerequisites :
 ------------------
-> **A:** Ensure virtualenv or conda environment are installed and configured. <
+>  **A:** Linux OS is installed and functional.
 >
-> **B:** Depending on the method that is used, ensure SSH and other applications (putty, winscp, or etc.) are installed and running. 
+>  **B:** Ensure virtualenv or conda environment are installed and configured. <
+>
+> **C:** Depending on the method that is used, ensure SSH and other applications (putty, winscp, or etc.) are installed and running. 
 >
 
 ## Section 1.0 - Creation and Configuration of Jupyter Service 
