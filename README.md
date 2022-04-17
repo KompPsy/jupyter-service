@@ -39,7 +39,7 @@ Method 1:
 >>
 > **2.)** Copy the jupyter-service file to
 >>
-      /etc/systemd/system/
+>      /etc/systemd/system/
 >>
 > **3.)** Proceed to step 1 in Enable and Starting jupyterlab.service section.
       
