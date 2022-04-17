@@ -27,9 +27,9 @@ Method 1:
 --**NOTE:** Content of the Jupyterlab Service file found here : https://github.com/KompPsy/jupyter-service/blob/main/jupyterlab.service
 >>
 **2.)** Copy the jupyter-service file to
-      >>
+>>
       /etc/systemd/system/
-      >>
+>>
 **3.)** Proceed to step 1 in Enable and Starting jupyterlab.service section.
       
 Method 2:
