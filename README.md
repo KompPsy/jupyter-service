@@ -1,4 +1,4 @@
-# jupyter-service
+# Jupyter-Service
 Description: Start Jupyter notebook/lab service upon boot.
 
 ### Prerequisites:
