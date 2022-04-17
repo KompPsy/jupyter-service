@@ -7,7 +7,11 @@ Method 1 or method 2 can be used for this Configuration process. Then, follow th
 Method 1: 
 ---------
 >>
-1. User will need to need to pre-create the service file then transfer jupyterlab.service to /etc/systemd/system.
+1. User can download the Jupyter Service file in the jupyter-service in the repository. User will need to modify the following in the file
+      User=__<Username>__
+      Group=__<Username or Group Name>__
+      WorkingDirectory=__<File Path of Directory of WorkSpace>__
+      ExecStart=__<File location of Jupyter Notebook or Lab file>__ --ip='__<Specified IP Address or *>>__ '  --port=__<Specified Port>__
 >>
 Method 2:
 ---------
