@@ -51,7 +51,7 @@ or
 >>
      sudo nano /etc/systemd/system/jupyterlab.service 
 >>
---**NOTE**: You can use either nano or vi commands. Use the editor you are comfortable with :) 
+--**NOTE**: You can use either vi or nano commands. Use the editor you are comfortable with :) 
 >> 
 **2.)** Copy and paste or enter the contents of jupyterlab.service to the editor. Then, save the contents of jupyterlab.service.
 >>
@@ -60,10 +60,14 @@ or
 Enable and Starting jupyterlab.service
 ---------------------------------------
 **1.)** Enter the following commands :
+>>
      sudo systemctl enable jupyterlab.service
+>>
      sudo systemctl start jupyterlab.service
+>>
      sudo systemctl status jupyterlab.service
-      Expected Result Output: jupyterlab.service - Jupyter Lab Server will show as Active: active (running).
+>>
+     **Expected Result Output:** jupyterlab.service - Jupyter Lab Server will show as Active: active (running).
 >> 
 --**NOTE:** If jupyterlab.service does not show active and running status proceed to next steps.
 >>
