@@ -5,7 +5,7 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 ------------------
 > **A:** Ensure virtualenv or conda environment are installed and configured. <
 >
-> **B:** Depending on the method that is used, ensure SSH and other applications (putty, winscp, or etc.) are installed and running. <
+> **B:** Depending on the method that is used, ensure SSH and other applications (putty, winscp, or etc.) are installed and running. 
 >
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Creation and Configuration of Jupyter Service Procedure:
