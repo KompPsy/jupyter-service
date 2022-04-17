@@ -1,6 +1,8 @@
 # Jupyter Service Configuration 
-Description: ConStart Jupyter notebook/lab service upon boot. (Linux OS)
-This was tested on RHEL 8.5, Fedora 35, and Ubuntu 20.04 LTS
+Description: Configures the Start and stop Jupyter notebook/lab service upon boot for Linux Systems (Debian / Redhat Enterprise Base systems).
+> Tested on RHEL 8.5, FEDORA 35, and Ubuntu 20.04
+
+
 
 ### Prerequisites :
 ------------------
