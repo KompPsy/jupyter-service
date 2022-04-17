@@ -9,13 +9,13 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 >
 
 ## Section 1.0 - Creation and Configuration of Jupyter Service 
->Method 1 or method 2 can be used for this Configuration process. Then, follow the Enable and Starting jupyterlab.service section to enable and start the service.
->>
 > Few things to before we get started, I named the file jupyterlab.service because I wanted to use juypter lab rather than jupyter notebook.
 > If you want to use Jupyter notebook at startup, I would recommend replacing the name of the file from  jupyterlab.service to jupyternotebook.service to help identify 
 > what type of jupyter session excuting the steps in either method 1 or method 2. These steps are still appicable to both jupyterlab and jupyterlab services.
 
 ### Section 1.0.1 Methods
+>Method 1 or method 2 can be used for this Configuration process. Then, follow the Enable and Starting jupyterlab.service section to enable and start the service.
+
 #### Method 1 : 
 ---------
 >>
