@@ -8,10 +8,10 @@ Method 1:
 ---------
 >>
 1. User can download the Jupyter Service file in the jupyter-service in the repository. User will need to modify the following in the file
-      User=__<Username>__
-      Group=__<Username or Group Name>__
-      WorkingDirectory=__<File Path of Directory of WorkSpace>__
-      ExecStart=__<File location of Jupyter Notebook or Lab file>__ --ip='__<Specified IP Address or *>>__ '  --port=__<Specified Port>__
+      User=*<Username>*
+      Group=*<Username or Group Name>*
+      WorkingDirectory=*<File Path of Directory of WorkSpace>*
+      ExecStart=*<File location of Jupyter Notebook or Lab file>* --ip='*<Specified IP Address or *>>* '  --port=*<Specified Port>*
 >>
 Method 2:
 ---------
