@@ -16,53 +16,53 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 ### Section 1.0.1 - Methods
 >Method 1 or method 2 can be used for this Configuration process. Then, follow the Enable and Starting jupyterlab.service section to enable and start the service.
 
-#### Method 1 : 
+> #### Method 1 : 
 ---------
->>
-> **1.)** User can download the Jupyter Service file in the jupyter-service in the repository. User will need to modify the following in the jupyter-service file:
->>
-> Line 5:
->>
->      User= <Username>
->>
-> Line 6:
->>
->      Group= <Username or Group Name>
->>
-> Line 8:     
->>
->      WorkingDirectory= <File Path of Directory of WorkSpace>
->>
-> Line 9:     
->>
->      ExecStart= <File location of Jupyter Notebook or Lab file> --ip= '<Specified IP Address or * > '  --port= <Specified Port>
->>
-> --**NOTE:** Content of the Jupyterlab Service file found here : https://github.com/KompPsy/jupyter-service/blob/main/jupyterlab.service
->>
-> **2.)** Copy the jupyter-service file to
->>
->      /etc/systemd/system/
->>
-> **3.)** Proceed to step 1 in Section 2.0.1 - Enable and Starting Jupyter Service.
+>>>
+>> **1.)** User can download the Jupyter Service file in the jupyter-service in the repository. User will need to modify the following in the jupyter-service file:
+>>>
+>> Line 5:
+>>>
+>>      User= <Username>
+>>>
+>> Line 6:
+>>>
+>>      Group= <Username or Group Name>
+>>>
+>> Line 8:     
+>>>
+>>      WorkingDirectory= <File Path of Directory of WorkSpace>
+>>>
+>> Line 9:     
+>>>
+>>      ExecStart= <File location of Jupyter Notebook or Lab file> --ip= '<Specified IP Address or * > '  --port= <Specified Port>
+>>>
+>> --**NOTE:** Content of the Jupyterlab Service file found here : https://github.com/KompPsy/jupyter-service/blob/main/jupyterlab.service
+>>>
+>> **2.)** Copy the jupyter-service file to
+>>>
+>>      /etc/systemd/system/
+>>>
+>> **3.)** Proceed to step 1 in Section 2.0.1 - Enable and Starting Jupyter Service.
       
-#### Method 2 :
+> #### Method 2 :
 ---------
->>
-> **1.)** Enter the following command :
->>
->     sudo vi /etc/systemd/system/jupyterlab.service
->>
-> or
->>
->     sudo nano /etc/systemd/system/jupyterlab.service 
->>
-> --**NOTE**: User can use either vi or nano commands. Use the editor that is most comfortable :)
->> 
-> **2.)** Copy and paste or enter the contents of jupyterlab.service to the editor. Then, save the contents of jupyterlab.service.
->>
-> --**NOTE:** Content of the Jupyterlab Service file found here : https://github.com/KompPsy/jupyter-service/blob/main/jupyterlab.serviceContent
->>
-> **3.)** Proceed to step 1 in Section 2.0.1 - Enable and Starting Jupyter Service.
+>>>
+>> **1.)** Enter the following command :
+>>>
+>>     sudo vi /etc/systemd/system/jupyterlab.service
+>>>
+>> or
+>>>
+>>     sudo nano /etc/systemd/system/jupyterlab.service 
+>>>
+>> --**NOTE**: User can use either vi or nano commands. Use the editor that is most comfortable :)
+>>> 
+>> **2.)** Copy and paste or enter the contents of jupyterlab.service to the editor. Then, save the contents of jupyterlab.service.
+>>>
+>> --**NOTE:** Content of the Jupyterlab Service file found here : https://github.com/KompPsy/jupyter-service/blob/main/jupyterlab.serviceContent
+>>>
+>> **3.)** Proceed to step 1 in Section 2.0.1 - Enable and Starting Jupyter Service.
       
 ## Section 2.0 - Jupyter Service Startup Configuration
 ---------------------------------------
