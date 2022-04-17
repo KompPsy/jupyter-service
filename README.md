@@ -1,7 +1,7 @@
 # jupyter-service
 Description: Start Jupyter notebook/lab service upon boot.
 
-##Prerequisites:
+#Prerequisites:
 ------------------
 A. Ensure virtualenv or conda environment are installed and configured
 B. Depending on the method that is used, ensure SSH and other applications (putty, winscp, or etc.) are installed and running.
