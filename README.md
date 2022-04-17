@@ -17,6 +17,7 @@ Method 1:
 >>
       Line 9:     ExecStart= <File location of Jupyter Notebook or Lab file> --ip= '<Specified IP Address or * > '  --port= <Specified Port>
 >>
+--**NOTE:** Content of the Jupyterlab Service found here : https://github.com/KompPsy/jupyter-service/blob/main/jupyterlab.service
 >>
 2. Transfer the jupyter-service file to
       >>
@@ -32,7 +33,7 @@ Method 2:
 or
 -     sudo nano /etc/systemd/system/jupyterlab.service 
 >>
---**Note**: You can use either nano or vi commands. Use the editor you are comfortable with :) 
+--**NOTE**: You can use either nano or vi commands. Use the editor you are comfortable with :) 
 >> 
 2. Copy and paste or enter the contents of jupyterlab.service to the editor. Then, save the contents of jupyterlab.service.
       Content of the Jupyterlab Service found here : https://github.com/KompPsy/jupyter-service/blob/main/jupyterlab.service
@@ -45,7 +46,7 @@ Enable and Starting jupyterlab.service
 -     sudo systemctl status jupyterlab.service
       Expected Result : jupyterlab.service - Jupyter Lab Server will show as Active: active (running).
 >> 
---**Note:** If jupyterlab.service does not show active and running status proceed to next steps.
+--**NOTE:** If jupyterlab.service does not show active and running status proceed to next steps.
 >>
 Disable and Stopping jupyterlab.service
 ---------------------------------------
