@@ -64,7 +64,7 @@ Description: ConStart Jupyter notebook/lab service upon boot.
       
 ## Section 2.0 - Jupyter Service Startup Configuration
 ---------------------------------------
-      This section configures the service of Jupyter to be excute upon startup in section 2.0.1 and to be removed in section 2.0.2. 
+This section configures the service of Jupyter to be excute upon startup in section 2.0.1 and to be removed in section 2.0.2. 
       
 ### Section 2.0.1 - Enable and Starting Jupyter Service 
 ---------------------------------------
