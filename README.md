@@ -1,6 +1,8 @@
 # jupyter-service
 Start Jupyter notebook/lab service upon boot.
 ## Configuration of Jupyter Service
+Method 1 or method 2 can be used for this Configuration process. Then, follow the Enable and Starting jupyterlab.service section to enable and start the service.
+
 >>
 Method 1: 
 ---------
@@ -28,7 +30,7 @@ Enable and Starting jupyterlab.service
 -     sudo systemctl status jupyterlab.service
       Expected Result : jupyterlab.service - Jupyter Lab Server will show as Active: active (running).
 >> 
->> **Note:** If jupyterlab.service does not show active and running status proceed to next steps.
+--**Note:** If jupyterlab.service does not show active and running status proceed to next steps.
 >>
 Disable and Stopping jupyterlab.service
 ---------------------------------------
@@ -40,6 +42,7 @@ Disable and Stopping jupyterlab.service
 >>
 2. Reboot system.
 3. After reboot and login, proceed to Enable and Starting jupyterlab.service section step 1.
->>
+
+####Questions or concerns please reach out: peteraldrichjr@gmail.com
 
 
