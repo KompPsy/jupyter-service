@@ -28,7 +28,7 @@ Enable and Starting jupyterlab.service
 >> 
 Note: If jupyterlab.service does not show active and running status proceed to next steps.
 >>
-Disable and Stoping jupyterlab.service
+Disable and Stopping jupyterlab.service
 ---------------------------------------
 1. Run the the following commands
 >>
