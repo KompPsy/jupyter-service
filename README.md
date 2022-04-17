@@ -1,5 +1,5 @@
-# Jupyter-Service Configuration
-Description: Start Jupyter notebook/lab service upon boot.
+# Jupyter Service Configuration
+Description: ConStart Jupyter notebook/lab service upon boot.
 
 ### Prerequisites:
 ------------------
@@ -8,8 +8,12 @@ Description: Start Jupyter notebook/lab service upon boot.
  **B:** Depending on the method that is used, ensure SSH and other applications (putty, winscp, or etc.) are installed and running.
 >
 
-## Creation and Configuration of Jupyter Service
+## Creation and Configuration of Jupyter Service Procedure:
 Method 1 or method 2 can be used for this Configuration process. Then, follow the Enable and Starting jupyterlab.service section to enable and start the service.
+>>
+- Few things to before we get started, I named the file jupyterlab.service because I wanted to use juypter lab rather than jupyter notebook.
+If you want to used notebook recommend replacing the name of the file from  jupyterlab.service to jupyternotebook.service to help identify what type of jupyter session
+it is launching at startup. These steps are still appicable to both jupyterlab and jupyterlab services.
 >>
 Method 1: 
 ---------
@@ -51,7 +55,7 @@ or
 >>
      sudo nano /etc/systemd/system/jupyterlab.service 
 >>
---**NOTE**: You can use either vi or nano commands. Use the editor you are comfortable with :) 
+--**NOTE**: User can use either vi or nano commands. Use the editor that is most comfortable :)
 >> 
 **2.)** Copy and paste or enter the contents of jupyterlab.service to the editor. Then, save the contents of jupyterlab.service.
 >>
@@ -84,6 +88,7 @@ Disable and Stopping jupyterlab.service
 **3.)** After reboot and login, proceed to Enable and Starting jupyterlab.service section step 1.
 >>
 
+      
 ### Contact:
 If you have any questions, feel free to reach out:
       PeterAldrichJr@gmail.com
