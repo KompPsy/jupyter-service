@@ -1,20 +1,20 @@
 # Jupyter Service Configuration
 Description: ConStart Jupyter notebook/lab service upon boot.
 
-### Prerequisites:
+### Prerequisites :
 ------------------
 > **A:** Ensure virtualenv or conda environment are installed and configured. <
 >
 > **B:** Depending on the method that is used, ensure SSH and other applications (putty, winscp, or etc.) are installed and running. 
 >
 
-## Creation and Configuration of Jupyter Service Procedure:
+## Creation and Configuration of Jupyter Service :
 >Method 1 or method 2 can be used for this Configuration process. Then, follow the Enable and Starting jupyterlab.service section to enable and start the service.
 >>
 > Few things to before we get started, I named the file jupyterlab.service because I wanted to use juypter lab rather than jupyter notebook.
 > If you want to use Jupyter notebook at startup, I would recommend replacing the name of the file from  jupyterlab.service to jupyternotebook.service to help identify > what type of jupyter session excuting the steps in either method 1 or method 2. These steps are still appicable to both jupyterlab and jupyterlab services.
 >>
-### Method 1: 
+### Method 1 : 
 ---------
 >>
 > **1.)** User can download the Jupyter Service file in the jupyter-service in the repository. User will need to modify the following in the jupyter-service file:
@@ -43,7 +43,7 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 >>
 > **3.)** Proceed to step 1 in Enable and Starting jupyterlab.service section.
       
-### Method 2:
+### Method 2 :
 ---------
 >>
 > **1.)** Enter the following command :
@@ -62,7 +62,7 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 >>
 > **3.)** Proceed to step 1 in Enable and Starting jupyterlab.service section.
       
-### Enable and Starting Jupyter Service
+## Enable and Starting Jupyter Service :
 ---------------------------------------
 > **1.)** Enter the following commands :
 >>
@@ -76,7 +76,7 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 >> 
 > --**NOTE:** If jupyterlab.service does not show active and running status proceed to next steps.
 >>
-### Disable and Stopping Jupyter Service
+## Disable and Stopping Jupyter Service :
 ---------------------------------------
 > **1.)** Run the the following commands :
 >>
