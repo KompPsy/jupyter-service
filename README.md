@@ -20,7 +20,7 @@ Note: You can use either nano or vi commands. Use the editor you are comfortable
 >>
 Enable and Starting jupyterlab.service
 ---------------------------------------
-1. Enter the following command:
+1. Enter the following commands :
 -     sudo systemctl enable jupyterlab.service
 -     sudo systemctl start jupyterlab.service
 -     sudo systemctl status jupyterlab.service
@@ -30,7 +30,7 @@ Note: If jupyterlab.service does not show active and running status proceed to n
 >>
 Disable and Stopping jupyterlab.service
 ---------------------------------------
-1. Run the the following commands
+1. Run the the following commands :
 >>
 -     sudo systemctl disable jupyterlab.service
 -     sudo systemctl stop jupyterlab.service
