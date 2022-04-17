@@ -24,7 +24,7 @@ Method 1:
 >>
       Line 9:     ExecStart= <File location of Jupyter Notebook or Lab file> --ip= '<Specified IP Address or * > '  --port= <Specified Port>
 >>
---**NOTE:** Content of the Jupyterlab Service found here : https://github.com/KompPsy/jupyter-service/blob/main/jupyterlab.service
+--**NOTE:** Content of the Jupyterlab Service file found here : https://github.com/KompPsy/jupyter-service/blob/main/jupyterlab.service
 >>
 **2.)** Copy the jupyter-service file to
       >>
@@ -43,7 +43,7 @@ or
 --**NOTE**: You can use either nano or vi commands. Use the editor you are comfortable with :) 
 >> 
 **2.)** Copy and paste or enter the contents of jupyterlab.service to the editor. Then, save the contents of jupyterlab.service.
-      Content of the Jupyterlab Service found here : https://github.com/KompPsy/jupyter-service/blob/main/jupyterlab.service
+--**NOTE:** Content of the Jupyterlab Service file found here : https://github.com/KompPsy/jupyter-service/blob/main/jupyterlab.serviceContent
 >>
 Enable and Starting jupyterlab.service
 ---------------------------------------
