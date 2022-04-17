@@ -41,7 +41,7 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 >>
 >      /etc/systemd/system/
 >>
-> **3.)** Proceed to step 1 in Enable and Starting jupyterlab.service section.
+> **3.)** Proceed to step 1 in Section 2.0.1 - Enable and Starting Jupyter Service.
       
 ### Method 2 :
 ---------
@@ -60,10 +60,15 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 >>
 > --**NOTE:** Content of the Jupyterlab Service file found here : https://github.com/KompPsy/jupyter-service/blob/main/jupyterlab.serviceContent
 >>
-> **3.)** Proceed to step 1 in Enable and Starting jupyterlab.service section.
+> **3.)** Proceed to step 1 in Section 2.0.1 - Enable and Starting Jupyter Service.
       
-## Section 2.0 - Enable and Starting Jupyter Service 
+## Section 2.0 - Jupyter Service Startup Configuration
 ---------------------------------------
+      This section configures the service of Jupyter to be excute upon startup in section 2.0.1 and to be removed in section 2.0.2. 
+      
+### Section 2.0.1 - Enable and Starting Jupyter Service 
+---------------------------------------
+      
 > **1.)** Enter the following commands :
 >>
 >     sudo systemctl enable jupyterlab.service
@@ -76,7 +81,7 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 >> 
 > --**NOTE:** If jupyterlab.service does not show active and running status proceed to next steps.
 >>
-## Section 3.0 - Disable and Stopping Jupyter Service 
+## Section 2.0.2 - Disable and Stopping Jupyter Service 
 ---------------------------------------
 > **1.)** Run the the following commands :
 >>
