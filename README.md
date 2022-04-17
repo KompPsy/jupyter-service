@@ -8,7 +8,7 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 > **B:** Depending on the method that is used, ensure SSH and other applications (putty, winscp, or etc.) are installed and running. 
 >
 
-## Section 1.0 ) Creation and Configuration of Jupyter Service :
+## Section 1.0 - Creation and Configuration of Jupyter Service 
 >Method 1 or method 2 can be used for this Configuration process. Then, follow the Enable and Starting jupyterlab.service section to enable and start the service.
 >>
 > Few things to before we get started, I named the file jupyterlab.service because I wanted to use juypter lab rather than jupyter notebook.
@@ -62,7 +62,7 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 >>
 > **3.)** Proceed to step 1 in Enable and Starting jupyterlab.service section.
       
-## Section 2.0 ) Enable and Starting Jupyter Service :
+## Section 2.0 - Enable and Starting Jupyter Service 
 ---------------------------------------
 > **1.)** Enter the following commands :
 >>
@@ -76,7 +76,7 @@ Description: ConStart Jupyter notebook/lab service upon boot.
 >> 
 > --**NOTE:** If jupyterlab.service does not show active and running status proceed to next steps.
 >>
-## Section 3.0 ) Disable and Stopping Jupyter Service :
+## Section 3.0 - Disable and Stopping Jupyter Service 
 ---------------------------------------
 > **1.)** Run the the following commands :
 >>
