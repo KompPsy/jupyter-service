@@ -84,6 +84,8 @@ Disable and Stopping jupyterlab.service
 **3.)** After reboot and login, proceed to Enable and Starting jupyterlab.service section step 1.
 >>
 
->>If you have any questions, please reach out : PeterAldrichJr@gmail.com
+### Contact:
+If you have any questions, feel free to reach out:
+      PeterAldrichJr@gmail.com
 
 
