@@ -81,7 +81,7 @@ This section configures the service of Jupyter to be excute upon startup in sect
 >> 
 > --**NOTE:** If jupyterlab.service does not show active and running status proceed to next steps.
 >>
-## Section 2.0.2 - Disable and Stopping Jupyter Service 
+### Section 2.0.2 - Disable and Stopping Jupyter Service 
 ---------------------------------------
 > **1.)** Run the the following commands :
 >>
