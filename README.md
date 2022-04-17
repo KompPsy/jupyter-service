@@ -80,7 +80,7 @@ This section configures the service of Jupyter to be excute upon startup in sect
 >>
 >> **__Expected Result Output:__** jupyterlab.service - Jupyter Lab Server will show as Active: active (running).
 >> 
-> --**NOTE:** If jupyterlab.service does not show active and running status proceed to next steps.
+> --**NOTE:** If jupyterlab.service does not show active and running status proceed to next steps in Section 2.0.2 - Disable and Stopping Jupyter Service.
 >>
 ### Section 2.0.2 - Disable and Stopping Jupyter Service 
 ---------------------------------------
