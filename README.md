@@ -14,7 +14,7 @@ Method 2:
 or
 -     sudo nano /etc/systemd/system/jupyterlab.service 
 >>
-  Note: You can use either nano or vi commands. Use the editor you are comfortable with :) 
+    Note: You can use either nano or vi commands. Use the editor you are comfortable with :) 
 >> 
 2. Copy and paste or enter the contents of jupyterlab.service to the editor. Then, save the contents of jupyterlab.service.
       Content of the Jupyterlab Service found here : https://github.com/KompPsy/jupyter-service/blob/main/jupyterlab.service
