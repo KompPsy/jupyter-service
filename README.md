@@ -101,6 +101,8 @@ This section configures the service of Jupyter to be excute upon startup in sect
 > **3.)** After reboot and login, proceed to step 1 in Section 2.0.1 - Enable and Starting Jupyter Service.
 >>
 
+ 
+ Windows Configuration Coming Soon.
       
 ### Contact:
 If you have any questions, feel free to reach out:
