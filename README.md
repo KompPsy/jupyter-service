@@ -17,6 +17,7 @@ or
 Note: You can use either nano or vi commands. Use the editor you are comfortable with :) 
 >> 
 2. Copy and paste or enter the contents of jupyterlab.service to the editor. Then, save the contents of jupyterlab.service.
+      Content of the Jupyterlab Service found here : https://github.com/KompPsy/jupyter-service/blob/main/jupyterlab.service
 >>
 Enable and Starting jupyterlab.service
 ---------------------------------------
