@@ -101,6 +101,7 @@ This section configures the service of Jupyter to be excute upon startup in sect
 > **3.)** After reboot and login, proceed to step 1 in Section 2.0.1 - Enable and Starting Jupyter Service.
 >>
 
+ >- Upgraded from pervious versions of Ubuntu to Ubuntu 22.04 may cause issues on auto starting to boot. If your jupyter lab file is located in home\-username-\.local\bin\juypter-notebook or home\-username-\.local\bin\juypter-lab you may need to run pip install jupyterlab or pip install jupyter. After this Follow section 2.0.2 then proceed to section 2.0.1
  
  Windows Configuration Coming Soon.
       
