@@ -97,13 +97,13 @@ This section configures the service of Jupyter to be excute upon startup in sect
 >>
 > **2.)** Reboot system.
 >>
-> **3.)** After reboot and login, proceed to step 1 in Section 2.0.1 - Enable and Starting Jupyter Service.
+> --**NOTE:** If you are reconfiguring, fter reboot and login, proceed to step 1 in Section 2.0.1 - Enable and Starting Jupyter Service.
 >>
 
  #Known Issues
  -------------
-> Issue for users who upgrade from Ubuntu 18.04/20.04 to Ubuntu 22.04 with the jupyter server already configured may experience the Jupyter service not running. Users will need to follow 2.0.2 Section
-> If your using jupyterlab, and your jupyterlab file located in /home/-username-/.local/bin/jupyter-lab. Reinstall jupyterlab using pip install jupyterlab.
+> Issue for users who upgraded from Ubuntu 18.04/20.04 to Ubuntu 22.04 with the jupyter server already configured may experience the Jupyter service not running. Users will need to follow 2.0.2 Section
+> If your using jupyterlab, and your jupyterlab file located in /home/-username-/.local/bin/jupyter-lab. Reinstall jupyterlab using pip install jupyterlab. Follow the section 2.0.1.
  
  Windows Configuration Coming Soon.
       
