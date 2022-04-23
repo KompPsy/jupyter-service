@@ -1,7 +1,6 @@
 # Jupyter Service Configuration 
 Description: Configures the Start and stop Jupyter notebook/lab service upon boot for Linux Systems (Debian / Redhat Enterprise Base systems).
-> Tested on RHEL 8.5, FEDORA 35, and Ubuntu 20.04
-
+> Tested on RHEL 8.5, FEDORA 35, Ubuntu 20.04, Ubuntu 22.04
 
 
 ### Prerequisites :
@@ -101,7 +100,10 @@ This section configures the service of Jupyter to be excute upon startup in sect
 > **3.)** After reboot and login, proceed to step 1 in Section 2.0.1 - Enable and Starting Jupyter Service.
 >>
 
- >- Upgraded from pervious versions of Ubuntu to Ubuntu 22.04 may cause issues on auto starting to boot. If your jupyter lab file is located in home\-username-\.local\bin\juypter-notebook or home\-username-\.local\bin\juypter-lab you may need to run pip install jupyterlab or pip install jupyter. After this Follow section 2.0.2 then proceed to section 2.0.1
+ #Known Issues
+ -------------
+> Issue for users who upgrade from Ubuntu 18.04/20.04 to Ubuntu 22.04 with the jupyter server already configured may experience the Jupyter service not running. Users will need to follow 2.0.2 Section
+> If your using jupyterlab, and your jupyterlab file located in /home/-username-/.local/bin/jupyter-lab. Reinstall jupyterlab using pip install jupyterlab.
  
  Windows Configuration Coming Soon.
       
